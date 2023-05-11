@@ -1,0 +1,13 @@
+which conda # куда установлена конда?
+conda info # общая информация
+conda list -n base # проверить пакеты установленные в окружение base
+conda update -n base conda # обновить установщик
+conda env list # список виртуальных окружений
+conda create -n ocean python=3.9 numpy scipy pandas xarray matplotlib cartopy netcdf4 jupyterlab spyder -c conda-forge # создание виртуального окружения
+conda activate ocean # активирование виртуального окружения ocean
+conda install geopandas -c conda-forge #установка пакета geopandas в текущее вирт. окружение
+conda list # проверить пакеты установленные в текущем окружении
+spyder # запуск spyder
+jupyter --help # помощь по jupyter
+jupyter lab # запуск jupyterlab
+
